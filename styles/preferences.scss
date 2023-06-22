@@ -1,0 +1,115 @@
+@import "graphic-charter.scss";
+
+$iconSize: 60;
+
+.modal {
+    width: 100%;
+    height: 100%;
+    background-color: $general-background-color;
+    padding: 100px 30px 60px 30px;
+}
+
+.addToFavoriteButton {
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: $background-color;
+    border: $border;
+}
+
+.favoritesList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.favoritesItem {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: $background-color;
+    border: $border;
+    border-radius: $border-radius;
+    display: flex;
+    flex-direction: row;
+}
+
+.favoritesContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.favoritesIconContainer{
+    width: $iconSize;
+    height: $iconSize;
+    padding: 15px;
+    border-radius: $iconSize + px;
+    background-color: grey;
+}
+
+.favoritesIcon{
+    width: 100%;
+    height: 100%;
+}
+
+.descriptionContainer{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.colorContainer {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10;
+}
+
+.colorDot {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border: $border;
+    margin: 5px 0;
+}
+
+.favoriteIcons {
+    width: 30px;
+    height: 30px;
+}
+
+/***** FOOTER ETAPE 1 ET 2 *****/
+
+.stageSelector {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: $general-background-color;
+}
+
+.searchContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stageSelectorValidateButton {
+    font-weight: bold;
+    color: $primary-color;
+}
+
+.stageSelectorCancelButton {
+    font-weight: bold;
+}
+
+.favoriteInput{
+    width: 240px;
+    padding: 10px;
+    background-color: $background-color;
+    border-radius: 15px;
+    border: $border;
+}
+
+
